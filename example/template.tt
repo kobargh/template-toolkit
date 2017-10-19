@@ -1,1 +1,15 @@
-
+<html>
+	<body>
+		<h1>Template Toolkit for Haskell</h1>
+		<h2>Count 1-10:</h2>
+		[% FOREACH i = [1..10] -%]
+			[% i; (!loop.last) ? ', ' : '.' %]
+		[%- END %]
+		<h2>Users hash:</h2>
+		[% FOREACH user = users.pairs %]
+			<p>[% user.key %]: [% user.value %]
+		[% END %]
+		<h2>External template:</h2>
+		[% PROCESS template2.tt words = ['dog','cat','pig'] %]
+	</body>
+</html>

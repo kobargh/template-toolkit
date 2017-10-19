@@ -1,0 +1,10 @@
+{
+	"_CONFIG":{
+		"INCLUDE_PATH":["."]
+	},
+	"users":{
+		"Foo": 13,
+		"Bar": 3.14,
+		"Baz": "bazzz"
+	}
+}
