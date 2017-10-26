@@ -7,7 +7,7 @@ This haskell implementation includes such features as:
 * conditional directives
 * loops and loop controls
 * external templates and internal blocks processing
-* lots of virtual methods and filters
+* many virtual methods and filters
 
 Hackage: https://hackage.haskell.org/package/template-toolkit
 
