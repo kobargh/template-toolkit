@@ -946,7 +946,7 @@ Below is a simple example of using this module:
 === template-toolkit-example.hs
 @
 import Text.TemplateToolkit
-import Data.Text.IO as TIO (readFile)
+import qualified Data.Text.IO as TIO (readFile)
 import qualified Data.Text as T
 
 main = do
