@@ -1012,7 +1012,8 @@ main = do
 @
 {
   \"_CONFIG\":{
-    \"INCLUDE_PATH\":[\".\"]
+    \"INCLUDE_PATH\":[\".\"],
+    \"CACHE_DIR\":\"./CACHE\"
   },
   \"users\":{
     \"Foo\": 13,
