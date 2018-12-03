@@ -5,7 +5,7 @@
 * Plugins: DBI, Dumper, etc.
 
 ## [0.1.1.0] - 2018-12-03
-* Templates caching
+Templates caching feature added
 
 ## [0.1.0.1] - 2017-10-19
 Initial release
