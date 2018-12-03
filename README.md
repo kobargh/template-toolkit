@@ -8,6 +8,7 @@ This haskell implementation includes such features as:
 * loops and loop controls
 * external templates and internal blocks processing
 * many virtual methods and filters
+* templates caching
 
 Hackage: https://hackage.haskell.org/package/template-toolkit
 
